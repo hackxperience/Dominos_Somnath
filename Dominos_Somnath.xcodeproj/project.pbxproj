@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C884555E27FC3E4B0044E563 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C884555D27FC3E4B0044E563 /* EditProfileViewController.swift */; };
 		C886A19327F6C9E0004C3AC4 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = C886A19227F6C9E0004C3AC4 /* Lottie */; };
 		C886A19527F6CBBA004C3AC4 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C886A19427F6CBBA004C3AC4 /* AnimationViewController.swift */; };
 		C8BAFA8E27F2C1D200292234 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BAFA8D27F2C1D200292234 /* AppDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C884555D27FC3E4B0044E563 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
 		C886A19427F6CBBA004C3AC4 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 		C8BAFA8A27F2C1D200292234 /* Dominos_Somnath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dominos_Somnath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8BAFA8D27F2C1D200292234 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				C8BAFA9827F2C1D300292234 /* LaunchScreen.storyboard */,
 				C8BAFA9B27F2C1D300292234 /* Info.plist */,
 				C886A19427F6CBBA004C3AC4 /* AnimationViewController.swift */,
+				C884555D27FC3E4B0044E563 /* EditProfileViewController.swift */,
 			);
 			path = Dominos_Somnath;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				C8BAFA9227F2C1D200292234 /* ViewController.swift in Sources */,
 				C8BAFA8E27F2C1D200292234 /* AppDelegate.swift in Sources */,
 				C8BAFA9027F2C1D200292234 /* SceneDelegate.swift in Sources */,
+				C884555E27FC3E4B0044E563 /* EditProfileViewController.swift in Sources */,
 				C886A19527F6CBBA004C3AC4 /* AnimationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -47,7 +47,7 @@ class ViewController: UIViewController {
         image.layer.borderWidth = 3
         image.layer.masksToBounds = false
         image.layer.borderColor = UIColor(red: 0/255, green: 100/255, blue: 145/255, alpha: 1).cgColor
-        image.layer.cornerRadius = image.frame.size.height/2
+        image.layer.cornerRadius = image.frame.size.height/1.5
         image.clipsToBounds = true
 
     }
