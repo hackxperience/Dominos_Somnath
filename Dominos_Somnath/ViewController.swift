@@ -18,31 +18,31 @@ class ViewController: UIViewController {
         history_button.layer.shadowOffset = CGSize(width: 1, height: 1)
         history_button.layer.shadowRadius = 2
         history_button.layer.shadowOpacity = 0.1
-        
-        address_button.layer.shadowColor = UIColor.black.cgColor
-        address_button.layer.shadowOffset = CGSize(width: 1, height: 1)
-        address_button.layer.shadowRadius = 2
-        address_button.layer.shadowOpacity = 0.1
-        
-        fav_button.layer.shadowColor = UIColor.black.cgColor
-        fav_button.layer.shadowOffset = CGSize(width: 1, height: 1)
-        fav_button.layer.shadowRadius = 2
-        fav_button.layer.shadowOpacity = 0.1
-        
-        sett_buton.layer.shadowColor = UIColor.black.cgColor
-        sett_buton.layer.shadowOffset = CGSize(width: 1, height: 1)
-        sett_buton.layer.shadowRadius = 2
-        sett_buton.layer.shadowOpacity = 0.1
-        
-        aboutus_button.layer.shadowColor = UIColor.black.cgColor
-        aboutus_button.layer.shadowOffset = CGSize(width: 1, height: 1)
-        aboutus_button.layer.shadowRadius = 2
-        aboutus_button.layer.shadowOpacity = 0.1
-        
-        logout_button.layer.shadowColor = UIColor.black.cgColor
-        logout_button.layer.shadowOffset = CGSize(width: 1, height: 1)
-        logout_button.layer.shadowRadius = 2
-        logout_button.layer.shadowOpacity = 0.1
+//
+//        address_button.layer.shadowColor = UIColor.black.cgColor
+//        address_button.layer.shadowOffset = CGSize(width: 1, height: 1)
+//        address_button.layer.shadowRadius = 2
+//        address_button.layer.shadowOpacity = 0.1
+//
+//        fav_button.layer.shadowColor = UIColor.black.cgColor
+//        fav_button.layer.shadowOffset = CGSize(width: 1, height: 1)
+//        fav_button.layer.shadowRadius = 2
+//        fav_button.layer.shadowOpacity = 0.1
+//
+//        sett_buton.layer.shadowColor = UIColor.black.cgColor
+//        sett_buton.layer.shadowOffset = CGSize(width: 1, height: 1)
+//        sett_buton.layer.shadowRadius = 2
+//        sett_buton.layer.shadowOpacity = 0.1
+//
+//        aboutus_button.layer.shadowColor = UIColor.black.cgColor
+//        aboutus_button.layer.shadowOffset = CGSize(width: 1, height: 1)
+//        aboutus_button.layer.shadowRadius = 2
+//        aboutus_button.layer.shadowOpacity = 0.1
+//
+//        logout_button.layer.shadowColor = UIColor.black.cgColor
+//        logout_button.layer.shadowOffset = CGSize(width: 1, height: 1)
+//        logout_button.layer.shadowRadius = 2
+//        logout_button.layer.shadowOpacity = 0.1
         
         image.layer.borderWidth = 3
         image.layer.masksToBounds = false
@@ -54,11 +54,12 @@ class ViewController: UIViewController {
     
     
     @IBOutlet weak var history_button: UIButton!
-    @IBOutlet weak var address_button: UIButton!
-    @IBOutlet weak var fav_button: UIButton!
-    @IBOutlet weak var sett_buton: UIButton!
-    @IBOutlet weak var aboutus_button: UIButton!
-    @IBOutlet weak var logout_button: UIButton!
+    //    @IBOutlet weak var history_button: UIButton!
+//    @IBOutlet weak var address_button: UIButton!
+//    @IBOutlet weak var fav_button: UIButton!
+//    @IBOutlet weak var sett_buton: UIButton!
+//    @IBOutlet weak var aboutus_button: UIButton!
+//    @IBOutlet weak var logout_button: UIButton!
     @IBOutlet weak var image: UIImageView!
 }
 

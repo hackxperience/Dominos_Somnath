@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3954732827FD4AED00DED574 /* AnimateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3954732727FD4AED00DED574 /* AnimateViewController.swift */; };
 		C884555E27FC3E4B0044E563 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C884555D27FC3E4B0044E563 /* EditProfileViewController.swift */; };
 		C886A19327F6C9E0004C3AC4 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = C886A19227F6C9E0004C3AC4 /* Lottie */; };
 		C886A19527F6CBBA004C3AC4 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C886A19427F6CBBA004C3AC4 /* AnimationViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3954732727FD4AED00DED574 /* AnimateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateViewController.swift; sourceTree = "<group>"; };
 		C884555D27FC3E4B0044E563 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
 		C886A19427F6CBBA004C3AC4 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 		C8BAFA8A27F2C1D200292234 /* Dominos_Somnath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dominos_Somnath.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +73,7 @@
 				C8BAFA9B27F2C1D300292234 /* Info.plist */,
 				C886A19427F6CBBA004C3AC4 /* AnimationViewController.swift */,
 				C884555D27FC3E4B0044E563 /* EditProfileViewController.swift */,
+				3954732727FD4AED00DED574 /* AnimateViewController.swift */,
 			);
 			path = Dominos_Somnath;
 			sourceTree = "<group>";
@@ -114,7 +117,7 @@
 				};
 			};
 			buildConfigurationList = C8BAFA8527F2C1D200292234 /* Build configuration list for PBXProject "Dominos_Somnath" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3954732827FD4AED00DED574 /* AnimateViewController.swift in Sources */,
 				C8BAFA9227F2C1D200292234 /* ViewController.swift in Sources */,
 				C8BAFA8E27F2C1D200292234 /* AppDelegate.swift in Sources */,
 				C8BAFA9027F2C1D200292234 /* SceneDelegate.swift in Sources */,
